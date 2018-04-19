@@ -28,10 +28,10 @@ Running `build-ex-universal` script will compile the TypeScript in ex-universal 
 
 ## What Concepts are Proofed?
 * Universal TypeScript service declaration
-** Bare-bones solutions for importing
-*** into an Angular application as a singleton
-*** into a React application a Component property
+  * Bare-bones solutions for importing
+  * into an Angular application as a singleton
+  * into a React application a Component property
 
-#Appendix
+# Appendix
 1. I'd reccommend yarn for speed, but you can substitute npm (be sure to run `npm i` in the child project folders)
- 1. Run `npm run build-for-ex-react` from ex-universal once before running react project
+  1. Run `npm run build-for-ex-react` from ex-universal once before running react project
