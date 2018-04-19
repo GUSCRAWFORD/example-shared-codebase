@@ -1,0 +1,14 @@
+{
+  "name": "ex",
+  "version": "1.0.0",
+  "description": "example web application",
+  "main": "index.js",
+  "author": "Gus <crawford.gus@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "create-react-app": "^1.5.2"
+  },
+  "scripts":{
+    "install-children":"cd ex-angular && yarn install && cd ../ex-react && yarn install && cd ../ex-universal && yarn install"
+  }
+}
