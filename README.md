@@ -21,7 +21,7 @@ The react project is a fairly out-of-the box result of `create-react-app ex-reac
 In a command-prompt or terminal, run:
 ```
 cd ex-react
-yarn run build-ex-universal
+yarn run build-ex-universal #See Appendix 1.1 if you use npm
 yarn start
 ```
 Running `build-ex-universal` script will compile the TypeScript in ex-universal and output the js in a location importable from the react project without monkeying with the ex-react's webpack configs
@@ -34,3 +34,4 @@ Running `build-ex-universal` script will compile the TypeScript in ex-universal 
 
 #Appendix
 1. I'd reccommend yarn for speed, but you can substitute npm (be sure to run `npm i` in the child project folders)
+ 1. Run `npm run build-for-ex-react` from ex-universal once before running react project

@@ -7,6 +7,6 @@
     "typescript": "^2.8.1"
   },
   "scripts": {
-    "build-for-ex-react":"tsc --outDir ../ex-react/src/ex-universal"
+    "build-for-ex-react":"node node_modules/typescript/bin/tsc --outDir ../ex-react/src/ex-universal"
   }
 }
